@@ -1,4 +1,5 @@
 package de.qcademy.java.loops.forloop;
+
 public class Aufgabe2 {
 
     public static int summe(int n) {

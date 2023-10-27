@@ -24,11 +24,10 @@ public class Aufgabe4 {
 
     public static void main(String[] args) {
 
-        Aufgabe4 aufgabe4 = new Aufgabe4();
         int zahl1 = 60;
         int zahl2 = 30;
 
-        System.out.println(aufgabe4.ggt(zahl1, zahl2) + " ist der größte gemeinsame Teiler von " + zahl1 + " und " + zahl2);
+        System.out.println(Aufgabe4.ggt(zahl1, zahl2) + " ist der größte gemeinsame Teiler von " + zahl1 + " und " + zahl2);
 
     }
 }

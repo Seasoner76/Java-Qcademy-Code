@@ -24,8 +24,8 @@ public class Aufgabe2 {
             double zahlUser = scan.nextDouble();
             zahlen[i] = zahlUser;
         }
-        Aufgabe2 aufgabe2 = new Aufgabe2();
-        double summe = aufgabe2.arraySumme(zahlen);
+
+        double summe = Aufgabe2.arraySumme(zahlen);
 
         System.out.println("Die Summe der Zahlen, die der User eingegeben hat ist " + summe);
     }

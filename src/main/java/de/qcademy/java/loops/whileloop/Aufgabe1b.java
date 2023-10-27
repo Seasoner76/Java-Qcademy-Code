@@ -3,23 +3,24 @@ package de.qcademy.java.loops.whileloop;
 public class Aufgabe1b {
 
     public static void func(int n) {
-        int m = n + 1;
 
-        while (true) {
-            if ((m % n) == 0) {
-                m++;
-                continue;
+        int i = 0;
+
+        while (i < 10) {
+
+            if ((i%2) == 0) {
+                System.out.println(i + " ist eine gerade Zahl");
+            } else {
+                System.out.println(i + " ist eine ungerade Zahl");
             }
-            m++;
-            System.out.println("m = " + m);
+            i++;
         }
     }
 
     public static void main(String[] args) {
 
-        Aufgabe1b main1 = new Aufgabe1b();
-        main1.func(2);
-        System.out.println("Hello world!");
+        Aufgabe1b.func(2);
+
     }
 }
 

@@ -15,7 +15,7 @@ public class Aufgabe3 {
                     break;
                 }
             }
-            if (primzahl == true) {
+            if (primzahl) {
                 System.out.println(i + " ist eine Primzahl");
             }
         }
@@ -23,8 +23,6 @@ public class Aufgabe3 {
 
     public static void main(String[] args) {
 
-        Aufgabe3 aufgabe3 = new Aufgabe3();
-
-        aufgabe3.primeNumbers(17);
+        Aufgabe3.primeNumbers(17);
     }
 }
